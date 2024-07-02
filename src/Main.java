@@ -58,7 +58,7 @@ public class Main
             if (dataPoint[e] == findValue)
             {
                 found = true;
-                System.out.println("The value, " + findValue + ", was found at array index " + e);
+                System.out.println("The value, " + findValue + ", was first found at array index " + e);
                 break;
             }
         }
@@ -81,7 +81,7 @@ public class Main
         }
         System.out.println("The minimum value is " + minValue + " and the maximum value is " + maxValue);
         //Getting average for an array of double values
-        System.out.println("The average of data points is "  + getAverage(dataPoint) + ".");
+        System.out.println("\nAverage of data points is: "  + getAverage(dataPoint) + ".");
     }
 
     public static double getAverage (int values[])
